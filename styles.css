@@ -438,12 +438,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .avatar-wrapper {
-    width: 110px;
-    height: 110px;
+    width: 130px;
+    height: 130px;
     margin: 0 auto 20px auto;
     border-radius: 50%;
     padding: 4px;
     background: linear-gradient(135deg, var(--primary-light), var(--accent));
+    box-shadow: 0 8px 25px rgba(20, 184, 166, 0.3);
+}
+
+.avatar-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 20%;
+    display: block;
 }
 
 .avatar-fallback {
